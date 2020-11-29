@@ -32,7 +32,7 @@ $shout = mysqli_query($con,$query);
     <div class='error'><?php echo$_GET['error']; ?></div>
     <?php endif;?>
       <form action="process.php" method="POST">
-        <input type="text" name="user" placeholder="Enter Your Namr">
+        <input type="text" name="user" placeholder="Enter Your Name">
         <input type="text" name="message" placeholder="Enter A Message">
         <br/>
         <input type="submit" value="Shout It Out" class="shout-btn" name="submit">
