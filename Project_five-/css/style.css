@@ -1,0 +1,7 @@
+body{
+    background:url('../img/bg.jpeg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* min-height: 1000%; */
+    opacity: 0.8;
+}

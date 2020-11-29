@@ -1,0 +1,21 @@
+can be through right click inside the folder and choose bash then from ther install bootstap library using the command:
+npm i bootstrap
+npm i jquery
+
+or use the biuld in terminal inside the VScode using the same previous commands :
+npm i bootstrap
+npm i jquery
+
+
+
+then in the head section can made a link to the bootstrap css using this link:
+   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+
+and before the closong body tag make a link first to jquery library using:
+ <script src="node_modules/jquery/dist/jquery.js"></script>
+
+then make a link to js of bootstrap library using this link:
+ <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+
+note ( the prvious links must be at order jquery before js links)
