@@ -1,5 +1,6 @@
 let yourName = prompt("What is yor name");
 document.getElementById('yourName').innerHTML = "Welcom " + yourName;
+let start = confirm("Hi " + yourName +" You Have 5 Rounds, Are You Ready?" )
 
 
 
@@ -14,6 +15,18 @@ let bValue=0,
 function onClick(e){
  tmp++;
  if(tmp<=5){
+if(tmp == 1){
+  document.getElementById('round').innerHTML='Round One';
+}else if(tmp == 2){
+  document.getElementById('round').innerHTML='Round Two';
+}else if(tmp == 3){
+  document.getElementById('round').innerHTML='Round Three';
+}else if(tmp == 4){
+  document.getElementById('round').innerHTML='Round Four';
+}else{
+  document.getElementById('round').innerHTML='Round Five';
+}
+
   if(e.target.className == "inner-5"){
     aValue+=100;
      document.getElementById('result1').value=aValue;
@@ -45,31 +58,16 @@ function onClick(e){
    document.getElementById("total").value = aValue + bValue + cValue + dValue + nValue + fValue;
 
   } else{
-    //alert("");
    let some= confirm("Game finished! start new Game?");
    if(some){
 console.log(some);
 location.reload();
 return false;
    } else{
-    // return;
      location.assign("https://www.google.com");
    }
-   
   }
-    
-// switch (key) {
-//   case value:
-    
-//     break;
-
-//   default:
-//     break;
-// }
 }
-
-
-
 
 
 

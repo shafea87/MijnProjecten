@@ -102,6 +102,21 @@ font-weight: 900;
   text-align: center;
   font-size: 25px;
 }
+#round{
+  position: fixed;
+  top: 5%;
+  left: 10px;
+  width: 200px;
+  height: 110px;
+  background-color: gold;
+  font-size: 45px;
+  color: black;
+  text-align: center;
+  font-weight: 900;
+  word-spacing: 2px;
+  /* border: black 3px solid; */
+  border-radius: 30PX 0 ;
+}
  input{
    color:rgb(220, 24, 24);
    font-size: 18px;
@@ -109,6 +124,8 @@ font-weight: 900;
    font-weight: 900;
    height: 30px;
    width: 180px;
+   background-color: blanchedalmond;
+   border-radius: 20px;
  }
 
     /* Animetion */
