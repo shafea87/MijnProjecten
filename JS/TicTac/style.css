@@ -1,0 +1,19 @@
+div{
+
+    background-color:green;
+    color:white;
+    margin:0px;
+    text-align:center;
+    font-size:60px;
+    display:inline-block;
+    border:3px solid red;
+    width:120px;
+    height:120px;
+    cursor: pointer;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .container{
+      margin: 200px auto;
+      text-align: center;
+  }

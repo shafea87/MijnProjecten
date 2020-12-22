@@ -1,0 +1,138 @@
+body{
+  background-color: #ffff99;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1000 1000'%3E%3Cg fill='%23ffd573'%3E%3Cpolygon points='1000 -50 0 -50 500 450'/%3E%3Cpolygon points='550 500 1050 1000 1050 0'/%3E%3Cpolygon points='-50 0 -50 1000 450 500'/%3E%3Cpolygon points='0 1050 1000 1050 500 550'/%3E%3C/g%3E%3Cg fill='%23ffaa4d'%3E%3Cpolygon points='1000 -133.3 0 -133.3 500 366.7'/%3E%3Cpolygon points='633.3 500 1133.3 1000 1133.3 0'/%3E%3Cpolygon points='-133.3 0 -133.3 1000 366.7 500'/%3E%3Cpolygon points='0 1133.3 1000 1133.3 500 633.3'/%3E%3C/g%3E%3Cg fill='%23ff8026'%3E%3Cpolygon points='1000 -216.7 0 -216.7 500 283.3'/%3E%3Cpolygon points='716.7 500 1216.7 1000 1216.7 0'/%3E%3Cpolygon points='-216.7 0 -216.7 1000 283.3 500'/%3E%3Cpolygon points='0 1216.7 1000 1216.7 500 716.7'/%3E%3C/g%3E%3Cg fill='%23F50'%3E%3Cpolygon points='1000 -300 0 -300 500 200'/%3E%3Cpolygon points='800 500 1300 1000 1300 0'/%3E%3Cpolygon points='-300 0 -300 1000 200 500'/%3E%3Cpolygon points='0 1300 1000 1300 500 800'/%3E%3C/g%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='%23FE0' points='0 707.1 0 292.9 292.9 0 707.1 0 1000 292.9 1000 707.1 707.1 1000 292.9 1000'/%3E%3Cg fill='%23ffc800'%3E%3Cpolygon points='464.6 -242.5 -242.5 464.6 464.6 464.6'/%3E%3Cpolygon points='535.4 464.6 1242.5 464.6 535.4 -242.5'/%3E%3Cpolygon points='-242.5 535.4 464.6 1242.5 464.6 535.4'/%3E%3Cpolygon points='535.4 1242.5 1242.5 535.4 535.4 535.4'/%3E%3C/g%3E%3Cg fill='%23ffa200'%3E%3Cpolygon points='405.7 -301.4 -301.4 405.7 405.7 405.7'/%3E%3Cpolygon points='594.3 405.7 1301.4 405.7 594.3 -301.4'/%3E%3Cpolygon points='-301.4 594.3 405.7 1301.4 405.7 594.3'/%3E%3Cpolygon points='594.3 1301.4 1301.4 594.3 594.3 594.3'/%3E%3C/g%3E%3Cg fill='%23ff7b00'%3E%3Cpolygon points='346.8 -360.3 -360.3 346.8 346.8 346.8'/%3E%3Cpolygon points='653.2 346.8 1360.3 346.8 653.2 -360.3'/%3E%3Cpolygon points='-360.3 653.2 346.8 1360.3 346.8 653.2'/%3E%3Cpolygon points='653.2 1360.3 1360.3 653.2 653.2 653.2'/%3E%3C/g%3E%3Cg fill='%23F50'%3E%3Cpolygon points='287.9 -419.2 -419.2 287.9 287.9 287.9'/%3E%3Cpolygon points='712.1 287.9 1419.2 287.9 712.1 -419.2'/%3E%3Cpolygon points='-419.2 712.1 287.9 1419.2 287.9 712.1'/%3E%3Cpolygon points='712.1 1419.2 1419.2 712.1 712.1 712.1'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+}
+#foto img{
+  max-width: 333px;
+  max-height: 500px;
+  border-radius: 50px;
+  box-shadow: 5px 5px 10px;
+}
+#pre{
+margin: 50px auto;
+text-align: center;
+}
+#or{
+  display: flex;
+  max-width: 333px;
+  display: flex;
+  justify-content: space-around;
+}
+#hot{
+  background-color: rgb(199, 38, 38);
+  padding: 10px 40px;
+  border-radius: 0 40px;
+  color: white;
+  border: 1px solid white;
+}
+#hot:hover{
+background-color: rgba(174, 26, 26, 0.489);
+}
+
+#snot{
+  background-color: rgb(7, 181, 7);
+  padding: 10px 40px;
+  border-radius: 40px 0 ;
+  color: white;
+  border: 1px solid white;
+
+}
+#snot:hover{
+  background-color:rgba(29, 159, 29, 0.483);
+
+}
+.top{
+margin: 0 auto;
+text-align: center;
+}
+#top{
+text-decoration: none;
+border-radius: 20% ;
+padding: 10px;
+background-color: rgb(104, 124, 182);
+/* border: 2px solid burlywood; */
+color: white;
+
+}
+h3{
+  font-size: 25 px;
+  margin: 20px auto;
+  text-align: center;
+}
+#container{
+  margin: 20px auto;
+  text-align: center;
+  width: 75%;
+  /* height: 300px; */
+padding: 20px;;
+
+  display: flex;
+  justify-content: center;
+  /* flex-direction: column; */
+  /* background-color: cadetblue; */
+  border-radius: 10px;
+
+}
+#hot_result{
+  /* display: flex;
+    margin: 20px auto;
+  flex-wrap: wrap; */
+  flex-direction: column;
+  margin: 20px ;
+  width: 50%;
+  /* background-color: coral; */
+  border-radius: 10px;
+
+  /* display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  background: lightBlue; */
+  
+}
+#snot_result{
+
+  flex-direction: column;
+  margin: 20px auto;
+  /* height: 200px; */
+  
+  width: 50%;
+  /* background-color: aquamarine; */
+  border-radius: 10px;
+}
+
+.rimg{
+width: 150px;
+height:15 0px;
+margin: 10px;
+border-radius: 10px;
+box-shadow: 5px 5px 10px;
+
+}
+
+/* .rhotimg{
+  border: 2px solid red;
+  border-radius: 10px;
+  margin: 10px 10%;
+  
+} */
+.rhotimg{
+  border: 3px dashed red;
+  border-radius: 10px;
+  margin: 10px ;
+  flex: 1;
+  /* overflow:auto ; */
+}
+.hot_title{
+  height: 30px;
+  background-color: blue;
+  color: white;
+  margin :10px;
+  border-radius: 50px 0;
+
+}
+/* h3{
+  text-align: left;
+} */
