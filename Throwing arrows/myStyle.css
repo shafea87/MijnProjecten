@@ -1,5 +1,7 @@
-body{background-color: #a7e2dc;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='152' height='152' viewBox='0 0 152 152'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='temple' fill='%233454ab' fill-opacity='0.22'%3E%3Cpath d='M152 150v2H0v-2h28v-8H8v-20H0v-2h8V80h42v20h20v42H30v8h90v-8H80v-42h20V80h42v40h8V30h-8v40h-42V50H80V8h40V0h2v8h20v20h8V0h2v150zm-2 0v-28h-8v20h-20v8h28zM82 30v18h18V30H82zm20 18h20v20h18V30h-20V10H82v18h20v20zm0 2v18h18V50h-18zm20-22h18V10h-18v18zm-54 92v-18H50v18h18zm-20-18H28V82H10v38h20v20h38v-18H48v-20zm0-2V82H30v18h18zm-20 22H10v18h18v-18zm54 0v18h38v-20h20V82h-18v20h-20v20H82zm18-20H82v18h18v-18zm2-2h18V82h-18v18zm20 40v-18h18v18h-18zM30 0h-2v8H8v20H0v2h8v40h42V50h20V8H30V0zm20 48h18V30H50v18zm18-20H48v20H28v20H10V30h20V10h38v18zM30 50h18v18H30V50zm-2-40H10v18h18V10z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+body{background-color: #33cfd7;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 400'%3E%3Cdefs%3E%3CradialGradient id='a' cx='396' cy='281' r='514' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%2365d5dd'/%3E%3Cstop offset='1' stop-color='%2333cfd7'/%3E%3C/radialGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='400' y1='148' x2='400' y2='333'%3E%3Cstop offset='0' stop-color='%234c61ff' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%234c61ff' stop-opacity='0.5'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='800' height='400'/%3E%3Cg fill-opacity='0.5'%3E%3Ccircle fill='url(%23b)' cx='267.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='532.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='400' cy='30' r='300'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
 }
 #container{
   margin: 20px 30%;
@@ -7,91 +9,110 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
  cursor: crosshair;
 }
 .outer-1 {
-  background-color:black;
-  width:400px; /* You can define it by % also */
-  height:400px; /* You can define it by % also*/
-  position:relative;
-  border:1px solid black;
-  border-radius: 50%;
-  color: white;
-  }
+background-color:black;
+width:400px; /* You can define it by % also */
+height:400px; /* You can define it by % also*/
+position:relative;
+border:1px solid black;
+border-radius: 50%;
+ color: white;
+}
   .inner-1 {
-  background-color:blue;
-   top: 10%; left:10%; /* of the container */
-  width:80%; /* of the outer-1 */
-  height:80%; /* of the outer-1 */
-  position: absolute;
-  border:1px solid black;
-  border-radius: 50%;
-  font-size: 14px;
-  text-align: center;
-  font-weight: 900;
-  }
-  .inner-2 {
-  background-color:rgb(11, 187, 11);
-   top: 20%; left:20%; /* of the container */
-  width:60%; /* of the inner-1 */
-  height:60%; /* of the inner-1 */
-  position: absolute;
-  border:1px solid black;
-  border-radius: 50%;
-  font-size: 12px;
-  text-align: center;
-  font-weight: 900;
- 
-  }
-  .inner-3 {
-    background-color: rgb(213, 206, 16);
-     top: 30%; left:30%; /* of the container */
-    width:40%; /* of the inner-1 */
-    height:40%; /* of the inner-1 */
-    position: absolute;
-    border:1px solid black;
-    border-radius: 50%;
-    font-size: 14px;
-    text-align: center;
-    font-weight: 900;
-    }
-   .inner-4 {
-  background-color:red;
-   top: 40%; left:40%; /* of the container */
-  width:20%; /* of the inner-1 */
-  height:20%; /* of the inner-1 */
-  position: absolute;
-  border:1px solid black;
-  border-radius: 50%;
-  font-size: 14px;
-  text-align: center;
-  font-weight: 900;
-  }
-  .inner-5 {
-    background-color:black;
-     top: 50%; left:50%; /* of the container */
-    width:1%; /* of the inner-1 */
-    height:1%; /* of the inner-1 */
-    position: absolute;
-    border:1px solid black;
-    border-radius: 50%;
-    font-size: 8px;
-    text-align: center;
-    font-weight: 900;
-    }
+background-color:blue;
+top: 10%; left:10%; /* of the container */
+width:80%; /* of the outer-1 */
+height:80%; /* of the outer-1 */
+position: absolute;
+border:1px solid black;
+border-radius: 50%;
+font-size: 14px;
+text-align: center;
+font-weight: 900;
+}
+.inner-2 {
+background-color:rgb(11, 187, 11);
+top: 20%; left:20%; /* of the container */
+width:60%; /* of the inner-1 */
+height:60%; /* of the inner-1 */
+position: absolute;
+border:1px solid black;
+border-radius: 50%;
+font-size: 12px;
+text-align: center;
+font-weight: 900;
+}
+.inner-3 {
+background-color: rgb(213, 206, 16);
+top: 30%; left:30%; /* of the container */
+width:40%; /* of the inner-1 */
+height:40%; /* of the inner-1 */
+position: absolute;
+border:1px solid black;
+border-radius: 50%;
+font-size: 14px;
+text-align: center;
+font-weight: 900;
+ }
+.inner-4 {
+background-color:red;
+top: 40%; left:40%; /* of the container */
+width:20%; /* of the inner-1 */
+height:20%; /* of the inner-1 */
+position: absolute;
+border:1px solid black;
+border-radius: 50%;
+font-size: 14px;
+text-align: center;
+font-weight: 900;
+}
+.inner-5 {
+  background-color:black;
+   top: 50%; left:50%; /* of the container */
+  width:1%; /* of the inner-1 */
+height:1%; /* of the inner-1 */
+position: absolute;
+border:1px solid black;
+border-radius: 50%;
+font-size: 8px;
+text-align: center;
+font-weight: 900;
+}
 
-    #score{
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    height: 280px;
-    width: 200px;
-    background-color: black;
-    color: white;
-    font-weight: 600;
-    text-align: center;
-    font-size: 18px;
-  }
+#score{
+  position: fixed;
+  top: 30%;
+  left: 10px;
+  height: 450px;
+  width: 200px;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  font-size: 18px;
+}
+#yourName{
+  position: fixed;
+  top: 25%;
+  left: 10px;
+  height: 30px;
+  width: 200px;
+  background-color: black;
+  color: gold;
+  font-weight: 600;
+  text-align: center;
+  font-size: 25px;
+}
+ input{
+   color:rgb(220, 24, 24);
+   font-size: 18px;
+   text-align: center;
+   font-weight: 900;
+   height: 30px;
+   width: 180px;
+ }
 
     /* Animetion */
-/* 
+
     #container {
      
       position: relative;
@@ -109,4 +130,4 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
       50%  {left:300px; top:300px;}
       75%  {left:0px; top:300px;}
       100% {left:0px; top:0px;}
-    }; */
+    };
