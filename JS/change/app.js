@@ -1,11 +1,9 @@
-let cadValue = document.getElementById('cadFId');
-    eurTo = document.getElementById('eurTo');
-    amountValue = document.getElementById('amount').value;
+let cadValue = document.getElementById('cadFId').value;
+    cadValue = 0;
+    eurTo = document.getElementById('eurTo').value;
+    eurTo=0;
+    document.getElementById('amount').value = 0;
+    amount=0;
+    console.log(document.getElementById('eurTo').value);
 
-myCurrency.onchange = function (){
-  "use strict";
-  if(cadFId == eurTo){
-	document.getElementById('output').innerHTML ="Worth  " + amountValue * 0.636956; + " €";
-}
-}
 
