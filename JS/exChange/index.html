@@ -9,32 +9,50 @@
 <body>
   
 <div id="container">
-  Amount
-  <input type="text" id="amount">
-  From
-  <select id="form">
-    <option id="cadFId" value="">CAD</option>
-    <option id="inrFId" value="">INR</option>
-    <option id="gbpFId" value="">GBP</option>
-    <option id="usdFId" value="">USD</option>
-    <option id="eurFId" value="">EUR</option>
-    <option id="audFId" value="">AUD</option>
-    <option id="sgdFId" value="">SGD</option>
-  </select>
 
-  To
-  <select id="to">
-    <option id="eurTo" value="">EUR</option>
-    <option id="audTo" value="">AUD</option>
-    <option id="cadTo" value="">CAD</option>
-    <option id="sgdTo" value="">SGD</option>
-    <option id="inrTo" value="">INR</option>
-    <option id="gbpTo" value="">GBP</option>
-    <option id="usdTo" value="">USD</option>
-  </select>
+  <div id="div1">
+    <p>Amount</p>  
+    <input type="text" id="amount" >
+  </div>
 
-  <div id="out">
+  <div id="div2">
+     <p>From</p>
+    <select id="form">
+      <option id="cadFId" value="CAD"> CAD</option>
+      <option id="inrFId" value="INR">INR</option>
+      <option id="gbpFId" value="GBP">GBP</option>
+      <option id="usdFId" value="USD">USD</option>
+      <option id="eurFId" value="EUR">EUR</option>
+      <option id="audFId" value="AUD">AUD</option>
+      <option id="sgdFId" value="SGD">SGD</option>
+    </select>
+  </div>
 
+  <div id="div3">
+    <p>to</p>
+    <select id="to">
+      <option id="eurTo" value="EUR">EUR</option>
+      <option id="audTo" value="AUD">AUD</option>
+      <option id="cadTo" value="CAD">CAD</option>
+      <option id="sgdTo" value="SGD">SGD</option>
+      <option id="inrTo" value="INR">INR</option>
+      <option id="gbpTo" value="GBP">GBP</option>
+      <option id="usdTo" value="USD">USD</option>
+    </select>
+  </div>
+
+  <div id="set">
+    <button onclick="sum()">></button>
+  </div> 
+</div>
+<div id="out"></div>  
+
+ 
+ 
+
+
+
+ 
 <script src="app.js"></script>
 </body>
 </html>
