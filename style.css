@@ -1,0 +1,359 @@
+body{
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background: url('./img/tman-516336_1280.jpg');
+  background-repeat: no-repeat;
+  background-position: 300px 0px;
+  background-size: auto;
+  background-attachment: fixed;
+}
+section{
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+nav{
+  display: inline-block;
+  width: 20%;
+  height: 100%;
+  background-color: black;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23222' stroke-width='10' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
+  position: fixed;
+  /* z-index: -1; */
+  top: 0;
+  left: 0
+}
+p{
+  font-family: Poppins, sans-serif;
+  font-size:24px;
+  font-weight:600;
+  line-height:28.8px;
+  color: white;
+  text-align: center;
+}
+#f-main{
+  display: block;
+  width: 80%;
+  height: 100vh;
+  background-color: rgba(25, 25, 25, 0.523);
+  margin-left: 20%;
+  margin-top: 0;
+}
+nav #photo-div{
+  background: url('img/img.jpeg') center center;
+  background-size: cover;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 15px auto;
+  text-align: center;
+}
+#social-media{
+  margin: 20px auto;
+  text-align: center;
+}
+#social-media img{
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  border-radius: 50%;
+}
+#social-media img:hover{
+  background-color:rgb(40, 135, 182);
+  transform: scale(1.5,1.5);
+}
+#navichtie-div{
+  margin: 50px 50px;
+  
+}
+#navichtie-div img{
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+
+}
+#navichtie-div a{
+justify-content: center;
+text-decoration: none;
+color: rgba(255, 255, 255, 0.673);
+
+}
+#navichtie-div a:hover{
+  color: white;
+}
+#navichtie-div a:active{
+  color: white;
+}
+#f-main p{
+  overflow: hidden;
+  color: rgb(148, 18, 18);
+  font-size: 32px;
+  white-space: nowrap;
+  width: 18ch;
+  animation: typing 4s steps(18) infinite;
+}
+@keyframes typing{
+  0%{
+    width:0ch;
+  }
+  100%{
+    width:14ch;
+  }
+}
+#f-main h1{
+  margin: 500px 0 10px 50px;
+  font-size: 64px;
+  color: wheat;
+}
+#f-main p{
+  margin: 0 0 10px 50px;
+}
+#s-main{
+  display: block;
+  width: 80%;
+  height: 100vh;
+  /* background-color: rgb(235, 233, 233); */
+  margin-left: 20%;
+  margin-top: 0;
+  background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23f3f3f3' stroke-width='10' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
+}
+#s-main-f-div{
+  display: flex;
+  justify-content: space-around;
+}
+#personaal-foto{
+background: url('./img/img.jpeg');
+background-size: cover;
+background-position: center center;
+width: 250px;
+height: 250px;
+margin: 0px 0 72px 50px ;
+border-radius: 20px;
+}
+#navichtie-div img{
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+#s-main h1{
+  margin: 0px 0px 50px 50px;
+  line-height: 3;
+}
+#s-main h1::after {
+  display: block;
+  content: '';
+  width: 75px;
+  height: 3px;
+  background:linear-gradient(to right,blue,rgb(32, 139, 193),rgb(7, 214, 224));
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#s-main h1 {
+position: relative;  
+}
+#s-main #p1-s-main{
+  color: gray;
+  text-align: left;
+  margin: 0 50px 72px 50px;
+  font-size: 20px;
+}
+#h3-s-main{
+  margin: 0 0 20px 0;
+}
+#h3-s-main::after {
+  display: block;
+  content: '';
+  width: 75px;
+  height: 3px;
+  background:linear-gradient(to right,blue,rgb(32, 139, 193),rgb(7, 214, 224));
+  position: absolute;
+  bottom: 3;
+  left: 0;
+}
+
+#h3-s-main {
+position: relative; 
+line-height: 3; 
+}
+#personeel-gegevens{
+  margin-left: 20px;
+}
+#personeel-gegevens h4{
+  margin: 5px;
+  text-align: left;
+  color: black;
+  display: inline-block;
+}
+#personeel-gegevens p{
+  margin: 5px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.313);
+  display: inline-block;
+  font-size: 16px;
+}
+#personeel-content{
+  margin-left: 20px;
+}
+#personeel-content h4{
+  margin: 5px;
+  text-align: left;
+  color: black;
+  display: inline-block;
+}
+#personeel-content p{
+  margin: 5px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.313);
+  display: inline-block;
+  font-size: 16px;
+}
+#zet{
+  height: 70px;
+}
+#ron{
+  width: 100%;
+  height: 800px;
+  background-color: rgba(240, 255, 255, 0);
+}
+#t-main{
+  display: block;
+  width: 80%;
+  height: 100vh;
+  margin-left: 20%;
+  margin-top: 0;
+  background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23f3f3f3' stroke-width='10' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
+}
+#t-main h1{
+  margin: 0px 0px 50px 50px;
+  line-height: 3;
+}
+#t-main h1::after {
+  display: block;
+  content: '';
+  width: 75px;
+  height: 3px;
+  background:linear-gradient(to right,blue,rgb(32, 139, 193),rgb(7, 214, 224));
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#t-main h1 {
+position: relative;  
+}
+#ervaring-container{
+  display: flex;
+  justify-content: space-around;
+}
+.bedrijf-block{
+  width: 250px;
+  border-radius: 50px 0;
+  box-shadow: 15px 5px 55px 2px  #484848af ;
+  background-color: #ffffff;
+}
+#rubix{
+  margin: 20px auto;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  background: url('./img/0\ \(1\).png');
+  background-size: cover;
+  background-position: center center;
+}
+#rubix:hover{
+  transform: scale(1.3,1.3);
+
+}
+.bedrijf-info h3{
+  margin: 20px auto;
+  text-align: center;
+  color: rgb(40, 135, 182);
+}
+.bedrijf-info p{
+  color: gray;
+  text-align: center;
+  margin: 20px;
+  font-size: 16px;
+}
+.in-ervaring{
+  color: gainsboro;
+  background-color:rgb(32, 139, 193);
+  border-radius: 30px;
+  border: 3px solid gainsboro;
+  padding: 10px;
+  font-weight: 900;
+  text-align: center;
+  box-shadow: 15px 5px 55px 2px  #484848af ;
+  
+}
+form{
+  text-align: center;
+  margin: 40px auto 30px auto;
+}
+#incloz{
+  margin: 20px auto;
+  text-align: center;
+  width: 150px;
+  height: 100px;
+  background: url('./img/nam.svg');
+  background-size: cover;
+  background-position: center center;
+}
+#incloz:hover{
+  transform: scale(1.3,1.3);
+
+}
+.in-ervaring:hover{
+  background-color: rgb(37, 186, 37);
+  transform: scale(1.1,1.1);
+}
+#v-main{
+  width: 100%;
+  height: 500px;
+  background-color: rgba(25, 25, 25, 0.523);
+}
+#si-main{
+  
+  display: block;
+  width: 80%;
+  height: 100vh;
+  /* background-color: rgb(235, 233, 233); */
+  margin-left: 20%;
+  margin-top: 0;
+  background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23f3f3f3' stroke-width='10' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
+}
+#si-main h1{
+  margin: 0px 0px 50px 50px;
+  line-height: 3;
+}
+#si-main h1::after {
+  display: block;
+  content: '';
+  width: 75px;
+  height: 3px;
+  background:linear-gradient(to right,blue,rgb(32, 139, 193),rgb(7, 214, 224));
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#si-main h1 {
+position: relative;  
+}
+
+@media only screen and (max-width: 1400px) {
+  nav {
+    width: 250px;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  body {
+    width: 1100px;
+  }
+}

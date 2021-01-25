@@ -10,7 +10,13 @@ if(localStorage.getItem('names')===null){
 }
 
 names.push(gamerNam);
-localStorage.setItem('names',JSON.stringify(names));
+
+const viName = JSON.parse(localStorage.getItem('names'));
+viName.forEach(function (item) {
+  
+  console.log(item);
+});
+
 if (e.target.id='submit'){
     console.log(e.target.id);
   const vie = document.querySelector('main');
@@ -56,9 +62,33 @@ for(i=1;i<=56; i++ ){
 
         document.getElementById('total').value=clicks;
         document.getElementById('total2').value=total;
-        localStorage.setItem('score',total);
+        
+        const gamerScore = document.getElementById('total2').value;
 
         if(clicks==10){
+          
+        let score;
+        if(localStorage.getItem('score')===null){
+          score = [];
+        }else{
+          score = JSON.parse(localStorage.getItem('score'));
+        }
+
+        score.push(gamerScore);
+        localStorage.setItem('score',JSON.stringify(score));
+
+        const viScore = JSON.parse(localStorage.getItem('score'));
+        viScore.forEach(function (item) {
+         
+          console.log(item);
+          const row = document.createElement('tr');
+          row.innerHTML=`
+            <tr>
+              <td>${item}</td>
+            </tr>
+          `
+        });
+          
          let final=confirm('you have finished your turn 10 clicks!! your result is '+total);
          if(final){
            clicks=0;
