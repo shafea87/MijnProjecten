@@ -1,0 +1,17 @@
+.list-n-s li{
+    list-style-type: none !!important;
+display: flex;
+align-items: center;
+}
+.list-n-s li:before {
+content: "\f00c
+";
+font-family: 'FontAwesome';
+color: #31C5C7;
+ margin-right: 10px;
+ width: 19px;
+ height: 26px;
+ z-index: 99999;
+ display: flex;
+    
+}

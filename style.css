@@ -1,3 +1,4 @@
+
 body{
   margin: 0;
   font-family: 'Open Sans', sans-serif;
@@ -322,11 +323,11 @@ form{
   display: block;
   width: 80%;
   height: 100vh;
-  /* background-color: rgb(235, 233, 233); */
+  background-color: rgb(235, 233, 233);
   margin-left: 20%;
   margin-top: 0;
-  background-color: #ffffff;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23f3f3f3' stroke-width='10' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
+  /* background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23f3f3f3' stroke-width='10' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E"); */
 }
 #si-main h1{
   margin: 0px 0px 50px 50px;
@@ -347,6 +348,223 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 position: relative;  
 }
 
+.oplaiding{
+  margin-left: 100px;
+  text-align: center;
+  display: flex;
+}
+
+.p-datum{
+  color: rgb(40, 135, 182);
+  font-size: 16px;
+  margin-right:  50px;
+}
+.p-ditels{
+  color: gray;
+  font-size: 16px;
+  margin:  0px;
+}
+
+.h4-ditels{
+  margin: 0px;
+}
+.ditels{
+  text-align: center;
+  margin: auto auto;
+}
+.datum{
+  border-left :rgb(243, 26, 26)solid 3px ;
+  padding-left: 20px;
+}
+
+
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  display: flex;
+  margin-top: 50px;
+}
+.flip-card p{
+font-size: 16px;
+}
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: rgb(255, 251, 251);
+  color: black;
+ 
+}
+
+.flip-card-back {
+  background-color: rgb(40, 135, 182);
+  color: white;
+  transform: rotateY(180deg);
+}
+#cards{
+  display: flex;
+  margin-left: 20px;
+  justify-content: space-around;
+}
+
+.sam{
+  height: 50px;
+}
+
+#se-main{
+  display: block;
+  width: 80%;
+  height: 100%;
+  background-color: rgb(235, 233, 233);
+  margin-left: 20%;
+  margin-top: 0;
+  padding-bottom: 100px;
+}
+
+#se-main h1{
+  margin: 0px 0px 50px 50px;
+  line-height: 3;
+}
+#se-main h1::after {
+  display: block;
+  content: '';
+  width: 75px;
+  height: 3px;
+  background:linear-gradient(to right,blue,rgb(32, 139, 193),rgb(7, 214, 224));
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#se-main h1 {
+position: relative;  
+}
+#cur-im{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: url('./img/universiteit-leiden-logo.png');
+  background-position: center center;
+  background-size: cover;
+  border-left: solid 5px rgb(7, 214, 224);
+}
+.cu-container{
+  margin: 50px  0 0 0;
+  width: 200px;
+  height: 100px;
+  transition-property: width;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  transition-delay: 0s;
+  
+}
+.cu-first{
+  display: flex;
+  /* margin-left: 200px; */
+}
+.cu-second{
+margin-left: 20px;
+text-align: center;
+margin: auto 20px;
+}
+.cu-second p{
+ color:black;
+ display: block;
+ text-align: left;
+ font-size: 16px;
+ margin: 0;
+ margin-left: 50px;
+ width: 300px;
+}
+.cu-second h4{
+  color:gray;
+  display: block;
+  text-align: left;
+  font-size: 16px;
+  margin: 0;
+ }
+ #gl-im{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: url('./img/unnamed.svg');
+  background-position: center center;
+  background-size: cover;
+  border-left: solid 5px rgb(7, 214, 224);
+}
+
+
+.cu-container:hover{
+  width: 500px;
+ cursor: pointer;
+
+}
+
+#gl-ud{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: url('./img/udemy-1.svg');
+  background-position: center center;
+  background-size: cover;
+  border-left: solid 5px rgb(7, 214, 224);
+}
+
+
+#ne-main{
+  display: block;
+  width: 80%;
+  height: 100%;
+  background-color: rgb(235, 233, 233);
+  margin-left: 20%;
+  margin-top: 0;
+  padding-bottom: 100px;
+}
+
+#ne-main h1{
+  margin: 0px 0px 50px 50px;
+  line-height: 3;
+}
+#ne-main h1::after {
+  display: block;
+  content: '';
+  width: 75px;
+  height: 3px;
+  background:linear-gradient(to right,blue,rgb(32, 139, 193),rgb(7, 214, 224));
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#ne-main h1 {
+position: relative;  
+}
+
+
+
+
 @media only screen and (max-width: 1400px) {
   nav {
     width: 250px;
@@ -364,7 +582,7 @@ position: relative;
   }
 }
 @media only screen and (max-width: 700px) {
-  #f-main,#s-main,#t-main {
+  #f-main,#s-main,#t-main,#v-main,#si-main {
     margin-left: 0;
     width: 100%;
   }
@@ -378,8 +596,8 @@ position: relative;
 }
 @media only screen and (max-width: 400px) {
   #ervaring-container {
-   display: block;
-   text-align: center;
-   margin: 0% 25%;
-   justify-content: center;
+  display: block;
+  text-align: center;
+  margin: 0% 25%;
+  justify-content: center;
 }
