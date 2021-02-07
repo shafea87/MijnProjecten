@@ -41,6 +41,9 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   height: 100%;
   color: white;
   position: fixed;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
 }
 #main-site{
   min-width: 600px;
@@ -211,6 +214,13 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   height: 25px;
   /* margin-top: 25px; */
 }
+#skills-img{
+  background: url('img/skills.svg');
+  background-size: cover;
+  background-position: center center ;
+  width: 25px;
+  height: 25px;
+}
 #a-list a:hover{
   color: #074D99;
 }
@@ -224,10 +234,10 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 
 .num:hover {
-  background-color: rgb(192, 192, 192);
+  background-color: rgba(192, 192, 192, 0.639);
   color: #074D99;
   transform: scale(1.2,1.2);
-  border-radius: 0 40px ;
+  /* border-radius: 0 40px ; */
 }
 a:active {
   background-color: rgba(192, 192, 192, 0.959);
@@ -553,6 +563,7 @@ margin: auto 20px;
   background-position: center center;
   background-size: cover;
   border-left: solid 5px #91969A;
+  
 }
 
 
@@ -739,18 +750,68 @@ color: #074D99;
 
 /* Media query */
 
-@media only screen and (max-width:620px) {
-  /* For mobile phones: */
-  #nav {
-    display: none;
+@media only screen and (max-width: 1300px) {
+  #ervaring-contener {
+    display: block;
+    text-align: center;
+    margin: 100px auto;
   }
 }
-@media only screen and (max-width:620px) {
-  /* For mobile phones: */
-  #container,#main-site,#home {
-    width: 100vh;
-    margin: 0;
-    padding: 0;
-    /* background-color: #038F3A; */
+
+@media only screen and (max-width: 1300px) {
+  #ervaring {
+    height: 2000px;
+    padding-top:200px;
+  }
+}
+
+
+@media only screen and (max-width: 1300px) {
+  #f-ervaring,#s-ervaring,#t-ervaring{
+    margin: 20px 25%;
+    text-align: center;
+  }
+}
+
+
+@media only screen and (max-width: 1300px) {
+  #opleiding-container{
+    display: block;
+    
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .flip-box{
+    margin: 20px auto;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #nav{
+ display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #main-site{
+    margin-left: 0;
+  }
+}
+
+
+@media only screen and (max-width: 1100px) {
+  #cv-container{
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    
+
+  }
+}
+ 
+@media only screen and (max-width: 1100px) {
+  #h3-s-main::after{
+  display: none;
   }
 }
